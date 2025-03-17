@@ -18,7 +18,7 @@ https://www.geeksforgeeks.org/how-to-install-mongodb-compass-on-macos/
 <h2>Configuration</h2>
 <p>Connection settings are managed via the MongoDBService, found through CSpec service <b>mongoDBService</b>.<br/>
 Edit the <b>url</b> property to add <b>username</b> and <b>password</b>.<br/>
-See baseline at <code>src/foam/doa/mongodb/services.jrl</code>
+See baseline at <code>src/foam/dao/mongodb/services.jrl</code>
 Copy and update in application deployment/, or edit at runtime. Changes to mongoDBService should take effect immediately.
 </p>
 
